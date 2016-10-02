@@ -38,7 +38,8 @@ NULL
 #' @examples
 #'
 #' data(precip)
-#' with(earthquakes, place[which.max(mag)])
+#' ##
+#' precip$date <- as.Date(paste(precip$year, "/", precip$month, "/", precip$day, sep=""))
 #'
 NULL
 

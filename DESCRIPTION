@@ -1,10 +1,12 @@
 Package: DKdata
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
-Date: 2016-02-01
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Title: A collection of interesting Danish datasets
+Version: 1.1
+Date: 2016-10-01
+Author: Claus Ekstrøm <claus@rprimer.dk>
+Maintainer: Claus Ekstrøm <claus@rprimer.dk>
+Description: A collection of interesting Danish datasets
+License: GPL-2
+Encoding: UTF-8
+ByteCompile: true
 RoxygenNote: 5.0.1

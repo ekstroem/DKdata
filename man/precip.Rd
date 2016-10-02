@@ -24,7 +24,8 @@ Information on daily precipitation in Botanisk Have, Copenhagen, Denmark, from 1
 \examples{
 
 data(precip)
-with(earthquakes, place[which.max(mag)])
+##
+precip$date <- as.Date(paste(precip$year, "/", precip$month, "/", precip$day, sep=""))
 
 }
 \references{
