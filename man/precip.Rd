@@ -33,4 +33,3 @@ Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface ai
 and precipitation series for the European Climate Assessment.  Int. J. of Climatol
 }
 \keyword{datasets}
-

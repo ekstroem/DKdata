@@ -4,6 +4,7 @@
 \name{DKdata}
 \alias{DKdata}
 \alias{DKdata-package}
+\alias{DKdata-package}
 \title{Collection of DKdata}
 \description{
 Collection of Danish datasets
@@ -18,4 +19,3 @@ Claus Ekstrom \email{claus@rprimer.dk}\cr Maintainer: Claus Ekstrom
 \email{claus@rprimer.dk}
 }
 \keyword{package}
-
