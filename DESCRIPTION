@@ -1,12 +1,12 @@
 Package: DKdata
 Type: Package
 Title: A collection of interesting Danish datasets
-Version: 1.2
-Date: 2017-05-07
+Version: 1.3
+Date: 2017-06-10
 Author: Claus Ekstrøm <claus@rprimer.dk>
 Maintainer: Claus Ekstrøm <claus@rprimer.dk>
 Description: A collection of interesting Danish datasets.
 License: GPL-2
 Encoding: UTF-8
 ByteCompile: true
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 6.0.1
