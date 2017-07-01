@@ -1,1 +1,13 @@
-data/stopwords.txt
+^\.RData
+^\.Rhistory
+^README*
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*\.html
+^.*\.Rmd
+^.*\.pdf
+^.*\.tex
+^.*\.txt
+^.*\.tar\.gz
+^\.rda
+^\.travis\.yml$
