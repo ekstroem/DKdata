@@ -108,3 +108,22 @@ NULL
 #'
 #'
 NULL
+
+
+#' Danish sentiment wordlist
+#'
+#' A wordlist of Danish words and phrases and their corresponding sentiment score (on a scale from -5 to 5)
+#'
+#' @format A data frame with 3552 rows and 2 variables:
+#' \describe{
+#'   \item{\code{word}}{character vector containing the words and phrases}
+#'   \item{\code{value}}{integer vector with the sentiment score}
+#' }
+#' @source Data collected by Finn Årup Nielsen and adapted from https://github.com/fnielsen
+#' @keywords datasets
+#' @examples
+#'
+#' data(sentiment)
+#' head(sentiment)
+#' 
+"sentiment"
