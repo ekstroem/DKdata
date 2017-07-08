@@ -117,7 +117,7 @@ NULL
 #' @format A data frame with 3552 rows and 2 variables:
 #' \describe{
 #'   \item{\code{word}}{character vector containing the words and phrases}
-#'   \item{\code{value}}{integer vector with the sentiment score}
+#'   \item{\code{score}}{integer vector with the sentiment score}
 #' }
 #' @source Data collected by Finn Årup Nielsen and adapted from https://github.com/fnielsen
 #' @keywords datasets
@@ -127,3 +127,21 @@ NULL
 #' head(sentiment)
 #' 
 "sentiment"
+
+
+#' Danish stopword wordlist
+#'
+#' A wordlist of Danish stopwords
+#'
+#' @format A tibble with 145 rows and 1 variable:
+#' \describe{
+#'   \item{\code{word}}{character vector containing the stopwords}
+#' }
+#' @source Data collected by Finn Årup Nielsen and adapted from https://github.com/fnielsen
+#' @keywords datasets
+#' @examples
+#'
+#' data(stopwords)
+#' head(stopwords)
+#' 
+"stopwords"

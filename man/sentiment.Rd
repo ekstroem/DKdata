@@ -7,7 +7,7 @@
 \format{A data frame with 3552 rows and 2 variables:
 \describe{
   \item{\code{word}}{character vector containing the words and phrases}
-  \item{\code{value}}{integer vector with the sentiment score}
+  \item{\code{score}}{integer vector with the sentiment score}
 }}
 \source{
 Data collected by Finn Årup Nielsen and adapted from https://github.com/fnielsen
