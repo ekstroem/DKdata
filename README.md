@@ -13,3 +13,15 @@ from within R
 library(devtools)
 install_github('ekstroem/DKdata')
 ```
+
+
+## Contents
+
+Overview of the packages datasets
+
+* `precip` - Precipitation in Botanisk Have
+* `sentiment` - a wordlist of Danish words and their corresponding sentiment score
+* `soccer` - Players on the Danish national male soccer team
+* `spurious` - a dataset of unrelated variables used to show spurious correlations 
+* `stopwords` - a wordlist of Danish stopwords
+
