@@ -15,7 +15,7 @@ Data collected by Finn Årup Nielsen and adapted from https://github.com/fnielse
 stopwords
 }
 \description{
-A wordlist of Danish stopwords
+A wordlist of Danish stopwords. Based on the 120 most common Danish words
 }
 \examples{
 

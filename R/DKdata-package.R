@@ -131,7 +131,7 @@ NULL
 
 #' Danish stopword wordlist
 #'
-#' A wordlist of Danish stopwords
+#' A wordlist of Danish stopwords. Based on the 120 most common Danish words
 #'
 #' @format A tibble with 145 rows and 1 variable:
 #' \describe{
@@ -145,3 +145,21 @@ NULL
 #' head(stopwords)
 #' 
 "stopwords"
+
+
+#' Updated Danish stopword wordlist
+#'
+#' An updated wordlist of Danish stopwords. Based on a combination of the 120 most common Danish words, the stopwords data frame, and various other sources. Note that the word 'ikke' is part of the data and it may be necessary to remove that if the list is used in combination with sentiment analysis.
+#'
+#' @format A tibble with 177 rows and 1 variable:
+#' \describe{
+#'   \item{\code{word}}{character vector containing the stopwords}
+#' }
+#' @source Data updated from stopwords with missing obvious stopwords by Claus Ekstrøm
+#' @keywords datasets
+#' @examples
+#'
+#' data(stopwords2)
+#' head(stopwords2)
+#' 
+"stopwords2"
