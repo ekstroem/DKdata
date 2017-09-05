@@ -4,7 +4,7 @@
 \name{stopwords2}
 \alias{stopwords2}
 \title{Updated Danish stopword wordlist}
-\format{A tibble with 177 rows and 1 variable:
+\format{A tibble with 178 rows and 1 variable:
 \describe{
   \item{\code{word}}{character vector containing the stopwords}
 }}
